@@ -1,0 +1,88 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.logo {
+    width: 15%;
+}
+
+/* Mengubah ukuran gambar menjadi 30% saat lebar layar kurang dari atau sama dengan 768px */
+@media (max-width: 768px) {
+    .logo {
+        width: 30%;
+    }
+}
+
+.waktu {
+    font-size: 12px;
+}
+
+.social-media-hover {
+    color: #000000;
+}
+
+.social-media-hover:hover {
+    color: #0d6efd;
+}
+
+.hero {
+    background-image: url('/cover.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+    /* Tambahkan warna latar belakang navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Tambahkan bayangan untuk efek navbar menempel */
+}
+
+.custom-card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100%;
+    /* atau atur tinggi sesuai kebutuhan */
+    overflow: hidden;
+}
+
+.custom-card:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    /* Mulai dari bawah */
+    left: 0;
+    width: 100%;
+    height: 20%;
+    /* Atur tinggi sesuai kebutuhan */
+    background-color: rgba(58, 53, 53, 0.5);
+    /* Ubah opasitas sesuai kebutuhan */
+    z-index: 1;
+    /* Pastikan lapisan berada di atas gambar */
+}
+
+.custom-card .card-body {
+    position: relative;
+    z-index: 2;
+    /* Pastikan konten tetap di atas lapisan */
+    color: white;
+    /* Teks putih */
+}
+
+.bg-card-custom {
+    background-color: #F9F9F9;
+}
+
+.bg-warning-custom {
+    background-color: #F2A100 !important;
+}
