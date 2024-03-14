@@ -20,7 +20,7 @@
 
 <nav class="navbar navbar-expand-lg bg-white sticky-top">
     <div class="container py-3">
-        <img src="{{ asset('logo.jpg') }}" alt="logo" class="logo">
+        <img src="{{ asset('logo.webp') }}" alt="logo" class="logo">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,17 +31,55 @@
                     <a class="nav-link {{ Request::is('/') ? 'border border-danger bg-danger text-white px-2' : '' }} text-uppercase fw-bold"
                         href="/">Beranda</a>
                 </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link {{ Request::is('profile') ? 'border border-danger bg-danger text-white px-2' : '' }} text-uppercase fw-bold"
-                        href="/profile">Profil</a>
+                <li class="nav-item dropdown mx-2 navbar-custom-hover">
+                    <a class="nav-link {{ Request::is('/profil') ? 'border border-danger bg-danger text-white px-2' : '' }} text-uppercase fw-bold"
+                        href="/profil" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Profil
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item nav-item-hover" href="/profil/visi-misi">Visi & Misi</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="/profil/letak-geografis/">Letak Geografis</a>
+                        </li>
+                        <li><a class="dropdown-item nav-item-hover" href="/profil/peta-administrasi">Peta
+                                Administratif</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link {{ Request::is('pemerintahan') ? 'border border-danger bg-danger text-white px-2' : '' }} text-uppercase fw-bold"
-                        href="/pemerintahan">Pemerintahan</a>
+                <li class="nav-item dropdown mx-2 navbar-custom-hover">
+                    <a class="nav-link {{ Request::is('/pemerintahan') ? 'border border-danger bg-danger text-white px-2' : '' }} text-uppercase fw-bold"
+                        href="/pemerintahan" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pemerintahan
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item nav-item-hover" href="#">Profil Bupati</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Profil Wakil Bupati</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Sekretariat Daerah</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Dinas</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Badan</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Inspektorat Daerah</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Sekretariat DPRD</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">RSUD</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Kecamatan</a></li>
+                    </ul>
                 </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link {{ Request::is('pelayanan') ? 'border border-danger bg-danger text-white px-2' : '' }} text-uppercase fw-bold"
-                        href="/pelayanan">Pelayanan</a>
+                <li class="nav-item dropdown mx-2 navbar-custom-hover">
+                    <a class="nav-link {{ Request::is('/pelayanan') ? 'border border-danger bg-danger text-white px-2' : '' }} text-uppercase fw-bold"
+                        href="/pemerintahan" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pelayanan
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item nav-item-hover" href="#">Perijinan</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Administrasi Kependudukan</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">PPID</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">SP4N LAPOR</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Cek Tagihan PBB</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Pajak Bumi dan Bangunan</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Pajak Bea Perolehan Hak atas Tanah
+                                dan Bangunan</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Pajak Daerah Lainnya</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Rencana Pengadaan</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Pengadaan Barang Jasa</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="#">Layak Anak</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item mx-2">
                     <a class="nav-link {{ Request::is('apbd') ? 'border border-danger bg-danger text-white px-2' : '' }} text-uppercase fw-bold"
