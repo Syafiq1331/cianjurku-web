@@ -26,7 +26,7 @@ body {
 }
 
 .hero {
-    background-image: url('/cover.webp');
+    background-image: url("/cover.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -80,9 +80,20 @@ body {
 }
 
 .bg-card-custom {
-    background-color: #F9F9F9;
+    background-color: #f9f9f9;
 }
 
 .bg-warning-custom {
-    background-color: #F2A100 !important;
+    background-color: #f2a100 !important;
+}
+
+.navbar-custom-hover:hover > a,
+.navbar-custom-hover:active > a,
+.navbar-custom-hover:focus > a {
+    background-color: #dc3545 !important;
+    color: white !important;
+}
+
+.nav-item-hover:hover {
+    color: #dc3545;
 }
