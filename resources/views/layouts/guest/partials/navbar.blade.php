@@ -50,15 +50,21 @@
                         Pemerintahan
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item nav-item-hover" href="#">Profil Bupati</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Profil Wakil Bupati</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Sekretariat Daerah</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Dinas</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Badan</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Inspektorat Daerah</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Sekretariat DPRD</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">RSUD</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Kecamatan</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="/pemerintahan/profil-bupati">Profil Bupati</a>
+                        </li>
+                        <li><a class="dropdown-item nav-item-hover" href="/pemerintahan/profil-wakil-bupati">Profil
+                                Wakil
+                                Bupati</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="/pemerintahan/sekretariat-daerah">Sekretariat
+                                Daerah</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="/pemerintahan/dinas">Dinas</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="/pemerintahan/badan">Badan</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="/pemerintahan/inspektor-daerah">Inspektorat
+                                Daerah</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="/pemerintahan/sekretariat-dprd">Sekretariat
+                                DPRD</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="/pemerintahan/rsud">RSUD</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="/pemerintahan/kecamatan">Kecamatan</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown mx-2 navbar-custom-hover">
@@ -67,18 +73,28 @@
                         Pelayanan
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item nav-item-hover" href="#">Perijinan</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Administrasi Kependudukan</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">PPID</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">SP4N LAPOR</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Cek Tagihan PBB</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Pajak Bumi dan Bangunan</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Pajak Bea Perolehan Hak atas Tanah
+                        <li><a class="dropdown-item nav-item-hover"
+                                href="https://siparigel.cianjurkab.go.id/">Perijinan</a></li>
+                        <li><a class="dropdown-item nav-item-hover"
+                                href="https://simpelaku.cianjurkab.go.id/">Administrasi Kependudukan</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="https://ppid.cianjurkab.go.id/">PPID</a></li>
+                        <li><a class="dropdown-item nav-item-hover"
+                                href="https://www.lapor.go.id/instansi/pemerintah-kabupaten-cianjur">SP4N LAPOR</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="http://cektagihanpbb.cianjurkab.go.id/">Cek
+                                Tagihan PBB</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="http://cianjurkab.v-tax.id/">Pajak Bumi dan
+                                Bangunan</a></li>
+                        <li><a class="dropdown-item nav-item-hover"
+                                href="https://bphtbcianjurkab.v-tax.id/main.php">Pajak Bea Perolehan Hak atas Tanah
                                 dan Bangunan</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Pajak Daerah Lainnya</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Rencana Pengadaan</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Pengadaan Barang Jasa</a></li>
-                        <li><a class="dropdown-item nav-item-hover" href="#">Layak Anak</a></li>
+                        <li><a class="dropdown-item nav-item-hover"
+                                href="https://9pajakcianjurkab.v-tax.id/main.php">Pajak Daerah Lainnya</a></li>
+                        <li><a class="dropdown-item nav-item-hover"
+                                href="https://sirup.lkpp.go.id/sirup/ro/rekap/klpd/D117">Rencana Pengadaan</a></li>
+                        <li><a class="dropdown-item nav-item-hover" href="http://lpse.cianjurkab.go.id/eproc4">Pengadaan
+                                Barang Jasa</a></li>
+                        <li><a class="dropdown-item nav-item-hover"
+                                href="https://web.cianjurkab.go.id/category/layak-anak/">Layak Anak</a></li>
                     </ul>
                 </li>
                 <li class="nav-item mx-2">
